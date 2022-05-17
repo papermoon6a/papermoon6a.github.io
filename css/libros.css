@@ -1,0 +1,13 @@
+.libros_contenedor{
+    background-color: black;
+    width: auto;
+    height: 330px;
+
+}
+
+.libros{
+    background-color: white;
+    width: 1130px;
+    height: auto;
+    justify-content: center;
+}
