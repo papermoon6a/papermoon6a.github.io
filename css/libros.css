@@ -1,28 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Oswald;
+	text-decoration: none;
+}
+
+.direccionar{
+	width: 100%;
+	height: auto;
+}
+.direccionar .interior{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1130px;
+	height: 100%;
+}
+.direccionar .titulo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1130px;
+	height: 100%;
+
+}
+.direccionar .titulo a{
+	font-size: 20px;
+	color: black;
+	text-decoration: underline;
+}
+.direccionar .interior a{
+	font-size: 20px;
+	color: black;
+}
+
+
+
+
 .libros_contenedor{
     background-color: white;
-    width: auto;
-    height: 330px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+	
 
+}
+.libros_contenedor .titulo a{
+	text-decoration: underline;
+	color: black;
+}
+.titulo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1130px;
+	height: auto;
+	padding: 20px 25px ;
 }
 
 .libros{
     background-color:white;
     width: 1130px;
-    height: auto;
+    height: 100%;
+	margin-left: auto;
+	margin-right: auto;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
 }
-
 .contenedor_img1{
     width: 155px;
     height: auto;
     font-size: 9px;
     
 }
-
 .contenedor_img1 img{
     width: 138px;
     height: 201px;
@@ -32,7 +80,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .contenedor_img1 h1{
     text-align: center;
 }
