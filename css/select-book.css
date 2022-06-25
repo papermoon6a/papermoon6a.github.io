@@ -1,0 +1,168 @@
+
+/*Biografia*/
+.cont_info_book{
+    display:flex;
+    margin: 40px;
+}
+
+.aside-book{
+    display: inline-block;
+    position: relative;
+    top:  40px;
+    left: 30px;
+}
+
+.aside_book_group_icon_star{
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.aside_book_group_favoritos{
+    position: relative;
+    left: 40px;
+}
+
+.tam_img{
+    width: 300px;
+    height: 400px;
+}
+
+.section_bio_book{
+    padding: 50px;
+    display: inline-flexbox;
+    position: relative;
+    top: -30px;
+}
+.section_bio_book_nombre{
+    font-size: 25px;
+    margin:10px
+}
+
+.section_bio_book_autor{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.section_bio_book_descripcion{
+    position: relative;
+    margin: 10px;
+    width: 1000px;
+    height: 200px;
+    font-size: 25px;
+    top:20px;
+
+}
+
+.book_inte {
+    display: flex;
+    width: 60%;
+    margin: 15px;
+    position:relative;
+    left: -30px;
+}
+
+.book_inte_dec{
+    display: inline-block;
+    padding: 30px;
+    margin-left: 0;
+}
+
+.book_inte_dec_pdf {
+    background-color: #2079E0;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    
+}
+
+.book_inte_dec_email {
+    background-color: #2079E0;;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+.book_inte_dec_share {
+    background-color: #2079E0;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    
+}
+
+.book_inte_avd{
+    display: block;
+    padding: 30px;
+    width: 300px;
+    margin-left: 5%;
+}
+
+.book_inte_avd_biblio{
+    display: block;
+    width: 350px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.book_inte_avd_visto{
+    display: block;
+    width: 260px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.book_inte_avd_download{
+    display: block;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.book_inte_avd_dowload{
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/*Carrucel*/
+
+/*Reseñas*/
+

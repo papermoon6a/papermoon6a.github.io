@@ -1,0 +1,21 @@
+*{
+  font-size: 30px;
+  font-weight: 100;
+
+  
+}
+
+
+
+.contenido{
+  width: 500px;
+  border: 10px solid red;
+}
+
+.contenido img{
+  float: right;
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+  padding: 10px;
+}
