@@ -3,15 +3,22 @@
 .cont_info_book{
     display:flex;
     margin: 40px;
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 550px;
 }
 
 .aside-book{
     display: inline-block;
     position: relative;
-    top:  40px;
+    top:  50px;
     left: 30px;
 }
-
+.aside_book_group{
+    position: relative;
+    top: -40px
+}
 .aside_book_group_icon_star{
     margin: 5px;
     padding: 10px;
@@ -162,7 +169,52 @@
 }
 
 
-/*Carrucel*/
+/*Recomendaciones*/
+
+.cont_otro{
+    position:relative;
+    top: -50px
+}
+.otro_letra{
+    display: inline-flex;
+    color: black;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.otro_book{
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    position: relative;
+    left: auto;
+    right: auto;
+
+}
+
+.otro_book_img{
+    position: relative;
+    left: 140px;
+    
+
+}
+
+.tam_img_rec{
+    display: flex;
+    width: 250px;
+    height: 300px;
+    padding: 25px;
+    
+}
+
+.otro_book_letra{
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 45px;
+    top: -5px
+    
+}
 
 /*Reseñas*/
 

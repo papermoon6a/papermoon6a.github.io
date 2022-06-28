@@ -6,7 +6,6 @@
 }
 
 
-
 .contenido{
   width: 500px;
   border: 10px solid red;
@@ -18,4 +17,9 @@
   height: 200px;
   margin-right: 20px;
   padding: 10px;
+}
+
+.reseña{
+  width: auto;
+  height:400px ;
 }
