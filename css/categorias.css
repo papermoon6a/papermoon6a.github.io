@@ -1,0 +1,60 @@
+.letras{
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+
+.categoria_letra{
+	margin: 10px;
+	font-size: 40px;
+}
+
+.libro_a{
+	margin: 40px;
+	position: relative;
+	left: 60px;
+}
+
+.libro_a_img{
+	display: inline-block;
+	
+}
+.libro_a_tam_img{
+	display: flex;
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+}
+
+.libro_a_tam_letra{
+	position: relative;
+	left: -5px;
+	padding: 35px;
+	margin: 15px;
+	font-size: 20px;
+}
+
+.libro_b{
+	position: relative;
+	margin: 50px;
+	left: 60px;
+}
+
+.libro_c{
+	position: relative;
+	margin: 50px;
+	left: 60px;
+}
+
+.libro_d{
+	position: relative;
+	margin: 50px;
+	left: 60px;
+}
+
+
+.libro_e{
+	position: relative;
+	margin: 50px;
+	left: 60px;
+}

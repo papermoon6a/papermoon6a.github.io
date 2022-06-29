@@ -1,9 +1,25 @@
+
+/*Letra Alfabetico y letra*/
+.orden_alf{
+	margin: 20px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.libro_letra{
+	margin: 20px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+/* Paginacion de Numero*/
+
 .paginacion {
     position: relative;
 	margin-top: 50px;
     
 }
-
 .paginacion ul {
 	list-style:none;
 	text-align: center;
@@ -18,15 +34,49 @@
 	display: block;
 	padding: 5px 10px;
 	color:#fff;
-	background:#024959;
+	background:	#2079E0;
 	text-decoration: none;
 }
 
 .paginacion ul li a:hover {
-	background:#037E8C;
+	background: #6FAAEF;
+	color: black;
 }
 
 .paginacion ul li .active {
-	background:#037E8C;
+	background: red;
 	font-weight:bold;
 }
+
+/*Los libros */
+
+.libro_a{
+	width: auto;
+	height: 300px;
+	margin: 40px;
+	position: relative;
+	left: 160px
+}
+
+.libro_a_img{
+	display: inline-block;
+	
+}
+.libro_a_tam_img{
+	display: flex;
+	width: 250px;
+	height: 300px;
+	margin: 10px;
+}
+
+.libro_a_tam_letra{
+	padding: 50px;
+	margin: 30px;
+}
+
+.libro_a_part_uno{
+	position: relative;
+	padding: 40px;
+	left: 160px;
+}
+
