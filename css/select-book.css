@@ -64,7 +64,7 @@
 
 .book_inte {
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: 15px;
     position:relative;
     left: -30px;
@@ -118,15 +118,17 @@
 }
 
 .book_inte_avd{
+    font-size: 5px;
     display: block;
-    padding: 30px;
-    width: 300px;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
     margin-left: 5%;
 }
 
 .book_inte_avd_biblio{
     display: block;
-    width: 350px;
+    width: 100%;
     height: 20px;
     padding: 10px;
     margin: 5px;
@@ -158,6 +160,7 @@
 }
 
 .book_inte_avd_dowload{
+
     display: block;
     width: 200px;
     height: 40px;
@@ -217,4 +220,9 @@
 }
 
 /*Reseñas API de Facebook*/
-
+.res{
+	width: 100%;
+    position: relative;
+    float: left;
+    left: 10%;
+}

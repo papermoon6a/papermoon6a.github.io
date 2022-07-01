@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/login-admin.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Rincón del Libro</title>
 </head>
 
@@ -25,18 +28,18 @@
         <label for="psw"><b>Contraseña</b></label>
         <input type="password" placeholder="Contraseña" name="psw" required>
         
-        <button type="submit" onclick="myFunction()">Iniciar Seccion</button>
+        <button type="submit" onclick="myFunction()">Iniciar Sección</button>
         <script> function myFunction(){
         var a=document.getElementById("text_a").value;
-        if (a=="admin")
+        if (a=="adm")
           {
               window.close();
-           window.open("adm.html")
+            window.open("adm.html");
           }
         else
           {
-            window.close
-            window.open("index.html")
+            window.close();
+            window.open("enter-index.html");
           }
         }
         </script>
@@ -47,8 +50,14 @@
 
         <div class="container_boton">
             <button type="button" class="cancelbtn">Cancelar</button>
-            <span class="psw"><a href="#">¿Olvidaste la Contraseña?</a></span>
+            <span class="psw"><a href="#" class="psw1">¿Olvidaste la Contraseña?</a></span>
+            <span class="psw"><a href="formulario.html" class="psw1">No tienes una cuenta registrate ¡Aqui!</a></span>
         </div>
+    </div>
+    </div>
+
+    <div class="grupo-2" id="copyright">
+        <small>&copy; 2022 <b>Rincón del libro</b>- Todos los Derechos Reservados.</small>
     </div>
 
 </body>
