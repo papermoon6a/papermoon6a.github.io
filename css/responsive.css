@@ -1,9 +1,12 @@
 
 *{
     scrollbar-width: none;
+    font-size: 20px;
 }
+
 @media screen and (max-width: 600px) {
-	.buscar, .nav1, #map, .box, #p{
+
+	.buscar, .nav1, #map, #p, #contacto{
         display: none;
         
 	}
@@ -18,6 +21,8 @@
         font-size: 30px;
     }
 
+
+
 }
 
 .menu-icon{
@@ -27,20 +32,22 @@
 
 }
 @media screen and (min-width: 601px) {
-	.menu-icon{
+	.menu-icon {
         display: none;
 	}
+
 }
 
 
 @media screen and (max-width: 768px) {
-    .marca, #map, #g, #p{
+    .marca, #map, #g, #p, #contacto{
         display: none;
     }
 
     .buscar{
         position: relative;
         top: 20px;
+        width: 100%;
     }
 
     .nav1{
@@ -53,6 +60,18 @@
     .libros, .libros_contenedor{
         width: 100%;
 
+    }
+    .box{
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        left: -8px;
+    }
+    
+    #portalweb{
+        position: relative;
+        width: 100%;
+        left: 20%;
     }
 }
 
@@ -79,6 +98,7 @@
         width: 100%;
 
     }
+
 }
 
 
