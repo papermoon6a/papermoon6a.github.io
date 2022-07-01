@@ -8,6 +8,7 @@
     <Link rel="stylesheet" type="text/css" href="css/estilo.css">
     <Link rel="stylesheet" type="text/css" href="css/libros.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -25,26 +26,35 @@
                     <input type="text" placeholder="¿Qué está buscando?">
                     <button class="btn">Buscar</button>
                 </form>
-
-                <nav>
-                     <ul>
-                        <li><a href="libros_a.html">Libros</a></li>
-                        <li><a href="autores.html">Autores</a></li>
-                        <li><a href="categorias.html">Categorias</a>
-                            <ul>
-                                <li><a href="categorias_select.html">ARTE</a></li>
-                                <li><a href="#">SUSPENSO</a></li>
-                                <li><a href="#">INFANTIL</a></li>
-                                <li><a href="#">NOVELAS ROMANTICAS</a></li>
-                                <li><a href="#">FICCIÓN</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="formulario.html">Registrarse</a></li>
-                        <li><a href="#">Mi cuenta</a></li>
-                    </ul>
-                </nav>
+                
+                <div class="menu-icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <nav class="nav1">
+                        <ul class="res_ul">
+                            <li><a href="libros_a.html">Libros</a></li>
+                            <li><a href="autores.html">Autores</a></li>
+                            <li><a href="categorias.html">Categorias</a>
+                                <ul>
+                                    <li><a href="categorias_select.html">ARTE</a></li>
+                                    <li><a href="#">SUSPENSO</a></li>
+                                    <li><a href="#">INFANTIL</a></li>
+                                    <li><a href="#">NOVELAS ROMANTICAS</a></li>
+                                    <li><a href="#">FICCIÓN</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="formulario.html">Registrarse</a></li>
+                            <li><a href="#">Mi cuenta</a></li>
+                        </ul>
+                    </div>
+                </nav>   
+            
             </div>
         </div>
+
+  
+   
+    
 
         <div class="banner">
             <div class="capa">
@@ -54,7 +64,10 @@
                 </div>
             </div>
         </div>
+
+    
     </header>
+
 
     <section>  <!--Seccion de Libros-->
         <section> <!--Seccion de Libros-->
@@ -68,33 +81,34 @@
                         <h2>Historia del arte</h2>
                         <h2>-E.H. Gombrich</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" >
                         <img src="imagenes/keep.jpg" alt="">
                         <h2>Keep an eye open</h2>
                         <h2>-Julian Barnes</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/Oficio.png" alt="">
                         <h2>El arte como oficio</h2>
                         <h2>-Bruno Munari</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/camino.jpg" alt="">
                         <h2>El camino del artista</h2>
                         <h2>-Julia Cameron</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <a href="select-book.html"><img src="imagenes/anatomia.jpg" alt=""></a>
                         <a href="select-book.html"><h2>Anatomía artística</h2></a>
                         <a href=""><h2>-Michel Lauricella</h2></a>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/color.jpg" alt="">
                         <h2>El arte del color</h2>
                         <h2>-Johannes Itten</h2>
                     </div>
                 </div>
             </div>
+
             <div class="libros_contenedor"> <!--Libros Suspenso-->
                 <div class="titulo">
                     <a href="">SUSPENSO</a>
@@ -110,22 +124,22 @@
                         <h2>El resplandor</h2>
                         <h2>-Stephen King</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/cementerio.jpg" alt="">
                         <h2>Cementerio de animales</h2>
                         <h2>-Stephen King</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/gaviotas.jpg" alt="">
                         <h2>La hora de las gaviotas</h2>
                         <h2>-Ibon Martín</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/tiza.jpg" alt="">
                         <h2>El hombre de tiza</h2>
                         <h2>-C.J. Tudor</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="imagenes/instinto.jpg" alt="">
                         <h2>El instinto</h2>
                         <h2>-Ashley Audrain</h2>
@@ -147,22 +161,22 @@
                         <h2>El pollo pepe</h2>
                         <h2>-Nick Denchfield</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="Imagenes/monstruo.jpg" alt="">
                         <h2>El monstruo de colores</h2>
                         <h2>-Anna Llenas</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="Imagenes/amigo.jpg" alt="">
                         <h2>Un amigo como tú</h2>
                         <h2>-Andrea Schomburg</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="Imagenes/compas.jpg" alt="">
                         <h2>Los compas y la entidad.exe</h2>
                         <h2>-El trollino</h2>
                     </div>
-                    <div class="contenedor_img1">
+                    <div class="contenedor_img1" id="g">
                         <img src="Imagenes/patito.jpg" alt="">
                         <h2>Patito feo</h2>
                         <h2>-Nina Filipek</h2>

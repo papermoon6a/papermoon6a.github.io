@@ -95,6 +95,7 @@
     padding: 15px;
 }
 #map {
+    background-color: red;
 	height: 200px;
 	width: 300px;
 
@@ -134,7 +135,7 @@
 /* Desktop First approach */
 @media (max-width: 600px) {
     .main_time {
-        font-size: 5rem;
+        font-size: 3vh;
         color: rgb(250, 250, 250);
         text-align: center; 
     }
