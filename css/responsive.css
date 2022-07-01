@@ -1,5 +1,7 @@
 
-
+*{
+    scrollbar-width: none;
+}
 @media screen and (max-width: 600px) {
 	.buscar, .nav1, #map, .box{
         display: none;
@@ -9,7 +11,7 @@
         width: 100%;
 
     }
-    #g{
+    #g, #h{
         display: none;
     }
     .marca{
@@ -30,11 +32,31 @@
 	}
 }
 
-
-
-@media screen and (max-width: 1024px) {
-    .marca{
+@media screen and (max-width: 768px) {
+    .marca, #map, #g{
         display: none;
     }
+
+    .buscar{
+        position: relative;
+        top: 20px;
+    }
+
+    .nav1{
+        position: relative; 
+        width: 100%;
+        bottom: 2vh;
+        left: -490px;
+    }
+
+    .libros, .libros_contenedor{
+        width: 100%;
+
+    }
+
+
 }
+
+
+
 
