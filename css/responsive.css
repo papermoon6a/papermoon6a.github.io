@@ -3,7 +3,7 @@
     scrollbar-width: none;
 }
 @media screen and (max-width: 600px) {
-	.buscar, .nav1, #map, .box{
+	.buscar, .nav1, #map, .box, #p{
         display: none;
         
 	}
@@ -32,8 +32,9 @@
 	}
 }
 
+
 @media screen and (max-width: 768px) {
-    .marca, #map, #g{
+    .marca, #map, #g, #p{
         display: none;
     }
 
@@ -53,8 +54,31 @@
         width: 100%;
 
     }
+}
 
+@media only screen and (max-width: 1120px) {
+    #p{
+        display: none;
+    }
+    .marca{
+        width: 100%;
+    }
+    .buscar{
+        position: relative;
+        top: 20px;
+        left: 10%;
+    }
+    .nav1{
+        position: relative; 
+        width: 100%;
+        bottom: 2vh;
+        left: -410px;
+    }
 
+    .libros, .libros_contenedor{
+        width: 100%;
+
+    }
 }
 
 
