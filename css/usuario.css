@@ -1,0 +1,67 @@
+.cont_usuario{
+    background-color: #62a1e9;;
+    width: 98%;
+    height: 600px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    top: 20%;
+    left: 0%;
+}
+
+.row_usuario{
+    border: 10px solid white;
+    border-radius: 20px;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px,auto);
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    left: 40%;
+}
+
+.row_importante{
+    border: 2px solid white;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px,auto);
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    top: 5%;
+}
+
+.perfil_text{
+    position: relative;
+    left: 25%;
+}
+
+.camara{
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 18%;
+    top: 10%;
+}
+
+.video-wrap{
+    position: relative;
+    top: -5%;
+    left: -1%;
+
+}
+
+.controller{
+    position: relative;
+    left: -20%;
+}
+
+.camara{
+    border: 1px solid white;
+}

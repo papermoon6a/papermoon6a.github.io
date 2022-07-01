@@ -48,3 +48,10 @@
     top: -100%;
     left: 50%;
 }
+
+.camara{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}

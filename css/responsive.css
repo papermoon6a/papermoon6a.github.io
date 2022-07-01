@@ -4,6 +4,9 @@
     font-size: 20px;
 }
 
+h1,h2 , a, small, h3, b, p{
+    font-size: 20px;
+}
 @media screen and (max-width: 600px) {
 
 	.buscar, .nav1, #map, #p, #contacto{
@@ -21,13 +24,15 @@
         font-size: 30px;
     }
 
-    
+
 }
 
 .menu-icon{
     float: right;
     margin: 30px;
-    font-size: 45px;
+    font-size: 60px;
+    position: relative;
+    left: 0%;
 
 }
 @media screen and (min-width: 601px) {

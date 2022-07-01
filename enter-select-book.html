@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/select-book.css">
     <Link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="https://kit.fontawesome.com/001eb7d17b.js" crossorigin="anonymous"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="h7C9sByE"></script>
     
@@ -17,35 +18,45 @@
         <div class="contenedor_menu">
             <div class="items">
                 <div class="logo">
-                    <a href="index.html"><img src="imagenes/logo.png" alt=""></a>
-                    <a class="marca" href="index.html">Rincón del Libro</a>
+                    <a href="enter-index.html"><img src="imagenes/logo.png" alt=""></a>
+                    <a class="marca" href="enter-index.html">Rincón del Libro</a>
                      
                 </div>	
-
                 <form class="buscar">
                     <input type="text" placeholder="¿Qué está buscando?">
                     <button class="btn">Buscar</button>
                 </form>
-
-                <nav>
-                     <ul>
-                        <li><a href="libros_a.html">Libros</a></li>
-                        <li><a href="-autores.html">Autores</a></li>
-                        <li><a href="categorias.html">Categorias</a>
-                            <ul>
-                                <li><a href="categorias_select.html">ARTE</a></li>
-                                <li><a href="#">SUSPENSO</a></li>
-                                <li><a href="#">INFANTIL</a></li>
-                                <li><a href="#">NOVELAS ROMANTICAS</a></li>
-                                <li><a href="#">FICCIÓN</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="usuario.html">Usuario</a></li>
-                    </ul>
-                </nav>
+                
+                <div class="menu-icon">
+                    <i class="fa fa-bars" style="font-size: 60px;"></i>
+                </div>
+                <nav class="nav1">
+                        <ul class="res_ul">
+                            <li><a href="enter-libros_a.html">Libros</a></li>
+                            <li><a href="enter-autores.html">Autores</a></li>
+                            <li><a href="enter-categorias.html">Categorias</a>
+                                <ul>
+                                    <li><a href="enter-categorias_select.html">ARTE</a></li>
+                                    <li><a href="#">SUSPENSO</a></li>
+                                    <li><a href="#">INFANTIL</a></li>
+                                    <li><a href="#">NOVELAS ROMANTICAS</a></li>
+                                    <li><a href="#">FICCIÓN</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="usuario.html">Usuario</a>
+                                <ul>
+                                    <li><a href="login.html">Cerrar Sección</a></li>
+                                </ul>
+                            </li>
+                                
+                        </ul>
+                    </div>
+                </nav>   
+            
             </div>
         </div>
-    </header>
+    </header> 
+   
 
 
     <div class="cont_info_book">

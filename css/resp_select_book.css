@@ -1,0 +1,94 @@
+
+
+
+@media screen and (max-width: 600px) {
+   .cont_info_book{
+       border: none;
+       display: contents;
+       width: 100%;
+       padding: 10px;
+   }
+
+   .aside-book{
+       padding: 5%;
+   }
+
+   
+   .section_bio_book{
+        margin: 10px;
+        
+   }
+
+   .section_bio_book_descripcion{
+       display: contents;
+
+   }
+
+   .book_inte{
+        display: contents;
+   }
+
+   .book_inte_avd{
+        display: grid;
+        padding: 10px;
+        margin: 10px;
+        width: 450px;
+        position: relative;
+        left: -50px;
+
+        
+   }
+  
+   .cont_otro{
+       display: contents;
+    
+       
+   }
+
+   .otro_letra{
+    display: block;
+}
+
+   .otro_book{
+      display: grid;
+      width: 100%;
+      margin-left: -15%;
+      
+   }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+  .cont_info_book{
+      border: none;
+      display: contents;
+  }
+
+  .aside-book{
+      position: relative;
+      left: 29%;
+  }
+
+  .section_bio_book{
+      width: 100%;
+      height: 600px;
+  }
+
+  .section_bio_book_descripcion{
+      display: contents
+  }
+
+  .book_inte_avd{
+      display: contents;
+    
+  }
+
+  
+}
+
+
+
+
+
