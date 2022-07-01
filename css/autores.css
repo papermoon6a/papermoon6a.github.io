@@ -1,0 +1,50 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 40px;
+}
+
+.cont-autor-descri{
+    border-radius: 10px;
+    padding: 25px;
+    background: #f2f2f2;
+    width: 600px;
+    height: 300px;
+    
+}
+
+.tam_img{
+    width: 150px;
+    height: 200px;
+}
+
+.autor-letra{
+    position: relative;
+    width: 160px;
+    height: 40px;
+    top: 0%;
+    left: 50%;
+    
+}
+
+.autor-descri{
+
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    top: -80%;
+    left: 30%;
+
+}
+
+.verlibro{
+    position: relative;
+    width: 160px;
+    height: 30px;
+    top: -100%;
+    left: 50%;
+}
