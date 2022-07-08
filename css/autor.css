@@ -1,0 +1,69 @@
+.cont_enter_autor{
+    display: flex;
+    margin: 50px;
+    width: 90%;
+    height: 750px;
+}
+
+.aside_autor_img{
+    display: flexbox;
+    padding: 10px;
+    margin: 20px;
+}
+
+.aside_img_tam{
+    width: 250px;
+    height: 300px;
+    padding: 0px;
+}
+
+.aside_datos{
+    padding: 20px;
+}
+
+.section_bio_autor{
+    width: 100%;
+    height: 400px;
+    margin: 40px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.libro_autor{
+    font-size: 35px;
+    position: relative;
+}
+.section_bio_autor_des{
+    width: 90%;
+    margin: 20px;
+}
+
+.cont_libro_autor_dow{
+    position: relative;
+    top: 30%;
+}
+
+.libro_autor_dow_img{ 
+    width: 250px;
+    height: 300px;
+}
+
+.libro_autor_dow{
+    font-size: 40px;
+}
+
+.nombre_libro{
+    position: relative;
+    left: 50px;
+}
+
+
+.cont-box{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.cont-box-img{
+    padding: 15px;
+}

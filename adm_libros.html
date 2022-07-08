@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Rincón del Libro</title>
+
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1 class="text_welc">Libros</h1>
+            <div class="side-menu">
+            <div class="brand-name">
+                <a href="" class="text_color"><h1>Rincón del Libro</h1></a>
+            </div>
+            <ul>
+                <li><a href="adm.html" class="text_color">Dashboard</a> </li>
+                <li><a href="adm_categorias.html" class="text_color">Categorias</a> </li>
+                <li><a href="adm_libros.html"class="text_color" >Libros</a> </li>
+                <li><a href="adm_autores.html" class="text_color">Autores</a></li>
+                <li><a href="adm_confi.html" class="text_color">Configuracion</a> </li>
+                <li><a href="login.html" class="text_color"> Cerrar Sección</a> </li>
+            </ul>
+    
+             </div>
+
+             <div  class="cont_dash">
+            <div class="cont_dash_book">
+
+            
+                <div class="cont_cate ">
+                    <select>
+                     <option value="0">Categoria</option>
+                      <option value="1">Arte</option>
+                      <option value="2">Suspenso</option>
+                      <option value="3">Infantil</option>
+                      <option value="4">Novela Romanticas</option>
+                    </select>
+                  </div>
+
+                  <div class="name_input">
+                    <label for="Nombre_Libro">Nombre del Libro</label>
+                    <input type="text" name="Libro" id=""> 
+                  </div>
+    
+
+                  <div class="cont_cate1 ">
+                    <select>
+                     <option value="0">Autor</option>
+                      <option value="1">Abraham</option>
+                      <option value="2">Montserra</option>
+                      <option value="3">Reinaldo</option>
+                      <option value="4">Cesar</option>
+                    </select>
+                  </div>
+
+                  <div class="text_bio">
+                    <textarea name="" sid="" cols="40" rows="5">Escribir la Biografia del libro</textarea>
+                  </div>
+                  <input type="file" class="file_btn">
+                  <button class="btn_add_libro" id="btn_add_libro_princ">Agregar</button>
+                  </div>
+
+    
+                <button class="btn_add_view_list">Ver Lista de libro</button>
+            </div>
+    </div>
+</body>
+</html>

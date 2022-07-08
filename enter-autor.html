@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/select-book.css">
+    <title>Rincón del Libro</title>
     <Link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <Link rel="stylesheet" type="text/css" href="css/libros.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="https://kit.fontawesome.com/001eb7d17b.js" crossorigin="anonymous"></script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="h7C9sByE"></script>
-    
-    <title>Rincón del Libro</title>
+    <link rel="stylesheet" href="css/autor.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
+
     <header>
         <div class="contenedor_menu">
             <div class="items">
@@ -56,97 +59,52 @@
             </div>
         </div>
     </header> 
-   
 
+    <div class="cont_enter_autor">
+        <aside class="aside_autor_img">
 
-    <div class="cont_info_book">
-        <aside class="aside-book">
+            <div class="cont_img_tam"> 
+                <img src="Imagenes/Abraham_Valdelomar-sm.png" alt="" class="aside_img_tam">
+            </div>
 
-            <div class="aside_book_group">
-               <div class="aside_book_group_estrellas">
-                <img src="imagenes/anatomia.jpg" class="tam_img" >
-               </div>
-               
-               <div class="aside_book_group_icon_star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-               </div>
-
-                <div class="aside_book_group_favoritos">
-                    <b>Agregar a Favoritos </b> 
-                    <i class="fas fa-heart"></i> 
-                </div>
+            <div class="aside_datos">
+                <p>Nombre del Autor</p>
+                <p>Nacimiento: </p>
+                <a href=""><p>Perfil en WikiPedia</p></a>
             </div>
         </aside>
 
-        <section class="section_bio_book">
-            <div>
-                <div class="section_bio_book_nombre">
-                    Nombre:
-                </div>
+        <section class="section_bio_autor">
+            <h1 class="libro_autor">Libros del Autor</h1>
+            <div class="section_bio_autor_des">
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, veritatis ullam molestiae asperiores cupiditate nam omnis. Dolorum voluptas fuga atque, nostrum eos similique, nesciunt incidunt pariatur, amet nisi cumque totam.</p>
+            </div>
 
-                <div class="section_bio_book_autor">
-                    Autor:
-                </div>
+            <div class="cont_libro_autor_dow">
+                <h1 class="libro_autor_dow">Descargar libros del Autor</h1>
+                
+                <div class="cont-box">
+                    <div class="cont-box-img"> 
+                        <img src="Imagenes/anatomia.jpg" class="libro_autor_dow_img">
+                        <p class="nombre_libro">Nombre del Libro</p>
+                    </div>
 
-                <div class="section_bio_book_descripcion">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, animi? Neque ea consequuntur et cumque quod corrupti, aliquam fuga non dolorem impedit autem possimus nulla alias libero labore eligendi perferendis!
+                    <div class="cont-box-img"> 
+                        <img src="Imagenes/anatomia.jpg" class="libro_autor_dow_img">
+                        <p class="nombre_libro">Nombre del Libro</p>
+                    </div>
+
+                    <div class="cont-box-img"> 
+                        <img src="Imagenes/anatomia.jpg" class="libro_autor_dow_img">
+                        <p class="nombre_libro">Nombre del Libro</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="book_inte">
-                <div class="book_inte_dec">
-                    <div class="book_inte_dec_pdf"> <i class="fas fa-file-pdf"></i> Descargar en PDF</div>
-                    <div class="book_inte_dec_email"> <i class="fas fa-envelope"></i> Enviar por correo </div>
-                    <div class="book_inte_dec_share"> <i class="fas fa-share"></i> Compartir</div>
-                </div>
-    
-                <div class="book_inte_avd"> 
-                    <div class="book_inte_avd_biblio"> <i class="fas fa-calendar-plus"></i> <b>Agregado a la biblioteca "23-03-2022"</b></div>
-                    <div class="book_inte_avd_visto"> <i class="fas fa-eye"></i> <b>Visto: 10</b></div>
-                    <div class="book_inte_avd_download"><i class="fas fa-download"></i> <b>Descargas: 10</b></div> 
-                </div>
-            </div>
         </section>
-    </div>
 
-    <div class="cont_otro">
-    <a class="otro_letra" href="#"><h1>Otros libros de Suspensos</h1></a>
-
-    <div class="otro_book">
-
-        <div class="otro_book_img">
-            <img class="tam_img_rec" src="Imagenes/anatomia.jpg" alt=""> 
-            <a class="otro_book_letra" href="">Anatomia Artistica</a>
-        </div>
-        
-        <div class="otro_book_img">
-            <img class="tam_img_rec" src="Imagenes/anatomia.jpg" alt=""> 
-            <a class="otro_book_letra" href="">Anatomia Artistica</a>
-        </div>
-
-        <div class="otro_book_img">
-            <img class="tam_img_rec" src="Imagenes/anatomia.jpg" alt=""> 
-            <a class="otro_book_letra" href="">Anatomia Artistica</a>
-        </div>
-
-        <div class="otro_book_img">
-            <img class="tam_img_rec" src="Imagenes/anatomia.jpg" alt=""> 
-            <a class="otro_book_letra" href="">Anatomia Artistica</a>
-        </div>
 
     </div>
-    </div>
- 
-
-
-    <h1>Reseñas / Comentarios</h1>
-    <div id="fb-root"></div>
-    <div class="fb-comments" data-href="https://rincondellibrojm.blogspot.com" data-width="100%" data-numposts="3"></div>
-  
 
     <footer class="separacion">
         <div class="contenedor_footer">
@@ -166,13 +124,13 @@
             </div>
             <div class="centrar">
                 <div class="grupo-1">
-                    <div class="box">
-                   
+                    <div class="box" id="portalweb">
                         <img src="Imagenes/logo.png" width="100px" height="100px" alt="">
                         <p>Es un portal web para descargar libros gratis y de forma legal. Todos nuestros libros están en domino público o con licencias abiertas.</p>
-        
+                    
                     </div>
-                    <div class="box">
+
+                    <div class="box" id="contacto">
                         <h2>CONTACTOS</h1>
                         <h3>Managua, Nicaragua</h2>
                         <h3>Rincondellibro@gmail.com</h2>
@@ -191,7 +149,7 @@
                 <small>&copy; 2022 <b>Rincón del libro</b>- Todos los Derechos Reservados.</small>
             </div>
     
+
         </div>
     </footer>
 </body>
-</html>
