@@ -20,7 +20,8 @@
     padding: 30px;
     text-align: left;
     position: relative;
-    left: 40%;
+    left: 50%;
+    width: 35%;
 }
 
 .row_importante{
@@ -64,4 +65,58 @@
 
 .camara{
     border: 1px solid white;
+}
+
+.row_add{
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(40px,auto);
+    text-align: left;
+    position: relative;
+    left: 20%;
+    top: 2%;
+}
+.lib_fav{
+    position: relative;
+}
+
+.lib_fav_escalon{
+    position: relative;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .perfil_text{
+        position: relative;
+        left: 10%;
+    }
+
+    .camara{
+        display: inline-block;
+        left: 10%;
+
+    }
+
+    #snap{
+        width: 120px;
+        position: relative;
+        left: 40%;
+
+    }
+
+    .row_usuario{
+        display: grid;
+        position: relative;
+        left: 40%;
+        width: 60%;
+    }
+
+    .row_add{
+        position: relative;;
+        left: 10%;
+    }
 }

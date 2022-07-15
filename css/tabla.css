@@ -1,0 +1,54 @@
+
+.grip-libro{
+    position: absolute;
+    top: 60vh;
+    left: 0vh;
+    width: 1000px;
+    height: 200px;
+
+}
+
+.clase_table {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: black;
+  }
+  
+  td, th {
+    border: 1px solid rgb(174, 165, 165);
+    padding: 10px 20px;
+  }
+  
+  .thead_clase {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+.fa fa-book{
+      font-size: 30px;
+  }
+
+#cont_lista{
+    position: absolute;
+    top: -1vh;
+    left: 105vh;
+
+}

@@ -1,0 +1,70 @@
+.grip-autor{
+    text-align: center;
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 0vh;
+    left: -15vh;
+    color: black;
+    
+  
+  }
+
+.table_c {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  
+  th {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(255, 255, 255);
+  }
+  
+.btn_sig_autores{
+    position: absolute;
+    top: 80vh;
+    left: 130vh;
+}
+
+.busc_cat_cont{
+    position: absolute;
+    top: 1vh;
+    left: -35vh;
+}
+
+/*Libros Lista*/
+#mov_cont{
+position: relative!important;
+top: 0vh;
+}
+
+                                
+.busc_libro_cont{
+    position: relative;
+    left: -49vh;
+    top: -10px;
+}
+
+.btn_sig_libro{
+
+}

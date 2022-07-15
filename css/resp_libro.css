@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    .libro_a, .libro_a_part_uno{
+        display: inline-table;
+       
+    }
+
+  
+}

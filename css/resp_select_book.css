@@ -19,6 +19,22 @@
         
    }
 
+   .aside_book_group_estrellas{
+       position: relative;
+       left: -20%;
+   }
+
+   .aside_book_group_icon_star{
+    position: relative;
+    left: 0%;
+   }
+
+.aside_book_group_favoritos{
+    position: relative;
+    left: 0%;
+    
+}
+
    .section_bio_book_descripcion{
        display: contents;
 
@@ -52,9 +68,11 @@
    .otro_book{
       display: grid;
       width: 100%;
-      margin-left: -15%;
+      margin-left: 15%;
       
    }
+
+   
 }
 
 
@@ -84,6 +102,16 @@
       display: contents;
     
   }
+  .otro_book_img{
+      position: relative;
+      left: -7%;
+  }
+  #img_select_uno{
+      display: none;
+  }
+
+
+
 
   
 }

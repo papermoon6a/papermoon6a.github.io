@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincón del Libro</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>                
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/dashcontenido.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tabla.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center align-content-center">
+            <div class="col-8 barra">
+                <h4 class="text-light"><a href="" id="logo_a"> <img src="Imagenes/logo.png" class="tam_img"> Rincón del Libro</a></h4>
+            </div>
+            <div class="col-4 text-right barra">
+                <ul class="navbar-nav mr-auto">
+                    <li>
+                        <a href="#" class="px-3 text-light perfil dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle user"></i></a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
+                            <a class="dropdown-item menuperfil cerrar" href="#"><i class="fas fa-sign-out-alt m-1"></i>Cerrar Sesión
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral col-12 col-sm-auto">
+                <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+                    <a href="dashboard.html"><i class="fas fa-home"></i><span>Dashboard</span></a>
+                    <a href="dashboard_cate.html"><i class="fa fa-book"></i><span>Categorias</span></a>
+                    <a href="dashboard_autores.html"><i class="fa fa-feather"></i><span>Autores</span></a>
+                    <a href="dashboard_libro.html"><i class="fa fa-book"></i><span>Libro</span></a>
+                    <a href="dashboard_config.html"><i class="fa fa-gear"></i><span>Configuración</span></a>
+                </nav>
+            </div>
+            <main class="main col">
+                <div class="row justify-content-center align-content-center text-center">
+                    <div class="columna col-lg-6">
+                        <div class="grid-cru">
+                        <!--Inicio-->
+                        <div class="titular_text">
+                            <h1>Libro</h1>
+                        </div>
+                        <!--Inicio-->
+
+                        
+                        <div class="nombre_libro_cont">
+
+                            <div class="">
+                                <select class="cont_cate_autor ">
+                                 <option value="0">Autor</option>
+                                  <option value="1">Abraham</option>
+                                  <option value="2">Montserra</option>
+                                  <option value="3">Reinaldo</option>
+                                  <option value="4">Cesar</option>
+                                </select>
+                              </div>
+
+                            <div class="libro_nombre">
+                                <label for="nombre_libro_pro"> Nombre del Libro</label>
+                                <input type="text" name="libro" placeholder="" class="tam_barra_letra">
+                            </div>
+                           
+                        
+                            <div>
+                                <label for="nombre_libro_pro"> Editorial</label>
+                                <input type="text" name="editorial" placeholder="" class="tam_barra_letra">
+                            </div>
+                         
+                            <div>
+                                <label for="nombre_libro_pro"> Fecha</label>
+                                <input type="text" name="fecha" placeholder="" class="tam_barra_letra">
+                            </div>
+
+                            <div class="pag_class_cont"> 
+                                <label for="nombre_libro_pro"> Páginas </label>
+                                <input type="text" name="pag" placeholder="" class="pag_cla">
+                            </div>
+
+                            <div class="cont_cate">
+                                <select class="cont_cate_select">
+                                 <option value="0">Categoria</option>
+                                  <option value="1">Arte</option>
+                                  <option value="2">Suspenso</option>
+                                  <option value="3">Infantil</option>
+                                  <option value="4">Novela Romanticas</option>
+                                </select>
+                              </div>
+
+                              <button>Agregar</button>
+                              <button>Borrar</button>
+                        </div>
+
+                      
+                     <div class="text_resena">
+                        <textarea name="" sid="" cols="40" rows="5" id="letra_resena">Escribir una Reseña del libro</textarea>
+                    </div>
+                        
+
+                    <div class="foto_img_libro">
+                        <i class="fa fa-photo" id="foto_img_libro_inse"></i>
+                    </div>
+                    <div class="file_cont">
+                        <input type="file" name="" id="" class="">
+                    </div>
+                      
+
+                    <!--Tablas-->
+                    <div class="grip-libro">
+                        <a href="" style="color: black;"> <h1>Previo del Libro</h1></a>
+
+                        <table class="clase_table">
+                          <thead class="thead_clase">
+                            <tr>
+                              <th>Autor</th>
+                              <th>Nombre del Libro</th>
+                              <th>Editorial</th>
+                              <th>Fecha</th>
+                              <th>Pagina</th>
+                              <th>Categoria</th>
+                              <th>Reseña</th>
+                              <th>Imagen del Libro</th>
+                            </tr>
+
+                            <tr>
+                                <th>Abraham</th>
+                                <th>La Flor del Loto</th>
+                                <th>Chiringuito</th>
+                                <th>10-10-1992</th>
+                                <th>500</th>
+                                <th>Arte</th>
+                                <th>Historias de princesas hay muchas, pero esta es una historia diferente.</th>
+                                <th> <img src="" alt="Loto" style="width: 10px; height: 10px;">  </th>
+                            </tr>
+
+
+                          </thead>
+
+                          
+                    </div>
+                      <button class="lista_completa_de_autor" id="cont_lista"><a href="dashboard_libro_list.html" class="lista_completa_de_autor_color">Lista de Libros</a></button>
+                        <!--Fin-->
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/646c794df3.js"></script>
+</body>
+
+</html>

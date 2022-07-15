@@ -24,6 +24,11 @@ h1,h2 , a, small, h3, b, p{
         font-size: 30px;
     }
 
+    #portalweb{
+        position: relative;
+        left: 20%;
+        top: -5%;
+    }
 
 }
 
@@ -99,7 +104,6 @@ h1,h2 , a, small, h3, b, p{
 
 
 }
-
 
 
 

@@ -1,0 +1,375 @@
+body{
+  overflow-x: hidden;
+}
+
+.titular_text{
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 50vh;
+
+}
+
+.add_cate{
+  
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 7vh;
+    left: 25vh;
+}
+
+
+.text_black{
+  display: inline-block;
+     width: 140px;
+    height: 50px;
+    color: black;
+    position: relative;
+    left: -20px;
+
+}
+
+.btn_cont_cat{
+  display: inline-block;
+  position: relative;
+  left: 2%;
+}
+
+
+/*Categoria Cantidad */
+
+
+.cont_canti_categoria{
+    position: absolute;
+    top: 30vh;
+    left: -15vh;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+  .color_black{
+    color: black;
+  }
+
+  .cont_canti_categoria{
+    background-color: white;
+    color: black;
+    width: 155vh;
+    height: 365px;
+    border: 1px solid black;
+    text-align: left;
+    margin: 0%;
+    
+
+  }
+
+
+  /*Lista de categoria*/
+.lista_categoria_letra{
+ color: black;
+position: absolute;
+top: 140px;
+left: -10vh;
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6{
+    text-align: center;
+    display: flex;
+
+  }
+
+.caja_li{
+  padding: 10px;
+  text-align: left;
+  list-style: none;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 5px;
+
+
+}
+
+  .caja_li:hover
+{
+    background-color: rgb(185, 185, 242);
+    border: 1px solid blue;
+}
+
+.btn_sig{
+  position: relative;
+  left: 85%;
+  top: 10%;
+}
+
+.btn_sig2{
+  position: relative;
+  left: 80%;
+  top: 10%;
+}
+
+
+
+.busc_cat_cont{
+  display: flex;
+  position: absolute;
+  top: 23vh;
+  left: 100vh;
+}
+
+
+
+/*AUTORESS DASHBOARD*/
+
+.img_autor{
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  height: 250px;
+  top: 10vh;
+  left: -20vh;
+
+}
+.letra_img_autor{
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 35vh;
+}
+
+.letra_img_autor:hover{
+  background-color: blue;
+  color: white;
+
+
+}
+
+.registro_autor{
+  display: flexbox;
+  color: black;
+  position: relative;
+  top: 15vh;
+  left: -30%;
+  width: 80vh;
+  height: 10vh;
+  margin: 10px;
+}
+
+.nombre_autor_clas{
+  position: relative;
+  left: -69px;
+  top: -5vh;
+}
+
+.nombre_autor_clas_nacimiento{
+  position: relative;
+  top: -5vh;;
+  left: -45px;
+}
+
+.text_bio_autor{
+  position: absolute;
+  top: 27vh;
+  left: 40vh;
+
+}
+
+.grip-autor{
+  text-align: center;
+  width: 900px;
+  height: 200px;
+  position: absolute;
+  top: 53.6vh;
+  left: 5vh;
+  color: black;
+  background-color: white;
+  border-radius: 20%;
+}
+
+.lista_completa_de_autor
+{
+  position: relative;
+  top: 40px;
+}
+
+.img_tam_pordefecto{
+  width: 20px;
+  height: 20px;
+}
+
+.lista_completa_de_autor{
+  position: absolute;
+  text-decoration: none;
+  left: 110vh;
+  width: 200px;
+   height: 50px;
+   border-radius: 20px;
+   text-decoration: none;
+  color: black;
+}
+
+.lista_completa_de_autor_color{
+  color: black;
+}
+
+/*Libro*/
+
+.cont_cate{
+  position: relative;
+  margin: 10px;
+  left: 13px;
+
+}
+.cont_cate_select{
+  width: 200px;
+  text-align: left;
+}
+
+.nombre_libro_cont{
+  color: black;
+  width: 360px;
+  height: 100%;
+  position: relative;
+  top: 100px;
+  left: -30vh;
+  text-align: right
+}
+
+.cont_cate_autor{
+  width: 180px;
+  margin: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.tam_barra_letra{
+  width: 200px;
+}
+
+.pag_cla{
+  width: 40px;
+
+}
+
+.pag_class_cont{
+  position: relative;
+  left: -21vh;
+}
+
+.text_resena{
+  position: absolute;
+  top: 15vh;
+  left: 40vh;
+}
+
+.letra_resena{
+  opacity: 100%;
+}
+
+.foto_img_libro{
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  border: 1px solid black;
+  top: 15vh;
+  left: 85vh;
+}
+
+#foto_img_libro_inse{
+  width: 200px;
+  height: 300px;
+  color: black;
+  font-size: 80px;
+  position: relative;
+  top: 8vh;
+
+}
+
+.file_cont{
+  position: absolute;
+  top: 45vh;
+  left: 88vh;
+  color: transparent;
+}
+
+
+/*Configuracion de Cuenta*/
+.titular_text_conf{
+  position: relative;
+  left: 40vh;
+  width: 500px;
+  color: black;
+}
+
+.cont_config{
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  left: -30vh;
+  top: 10vh;
+border: 1px solid black;
+border-radius: 10%;
+  padding: 10px;
+  text-align: right;
+
+}
+
+.c_n{
+
+  padding: 10px;
+  margin: 5px;
+}
+
+.c_n_label{
+  color: black;
+  padding: 10px;
+
+}
+
+.c_n_label:hover{
+  background-color: aliceblue;
+}
+
+.c_btn_confirmar{
+  position: relative;
+  left: -20vh;
+  top: -2vh;
+}
+
+#mo_c_n{
+  position: relative;
+  left: -10vh;
+  top: -3vh;
+}
