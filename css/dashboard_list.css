@@ -66,5 +66,21 @@ top: 0vh;
 }
 
 .btn_sig_libro{
+    position: relative;
+    top: -1vh;
+    left: 52vh;
+}
 
+.grip-usuario{
+  position: relative;
+  left: 20vh;
+  color: black;
+  display: block;
+}
+
+.btn_sig_usuario{
+  position: absolute;
+  top: 83vh;
+  left: 70vh;
+  width: 300px;
 }
