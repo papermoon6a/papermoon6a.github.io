@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+  }
 .cont_usuario{
     background-color: #62a1e9;;
     width: 98%;

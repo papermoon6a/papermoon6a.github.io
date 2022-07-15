@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+  }
+
 .letras{
 	position: relative;
 	left: 50px;
