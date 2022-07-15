@@ -1,4 +1,6 @@
-
+body{
+	overflow-x: hidden;
+  }
 /*Letra Alfabetico y letra*/
 .orden_alf{
 	margin: 20px;
